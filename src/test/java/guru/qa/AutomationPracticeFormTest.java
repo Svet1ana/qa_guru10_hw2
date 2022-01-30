@@ -7,9 +7,7 @@
     import com.codeborne.selenide.Condition;
     import com.codeborne.selenide.Configuration;
     import org.junit.jupiter.api.*;
-
     import java.io.File;
-
     import static com.codeborne.selenide.Condition.appear;
     import static com.codeborne.selenide.Condition.visible;
     import static com.codeborne.selenide.Selectors.byText;
@@ -96,7 +94,6 @@
             $("#state").shouldBe(Condition.text("NCR"));
             $("#city").shouldBe(Condition.text(  "Delhi"));
         }
-
         @Test
         @Order(11)
         void clickSubmitButton() {
@@ -105,7 +102,6 @@
             $("#example-modal-sizes-title-lg")
                     .shouldBe(Condition.text(  "Thanks for submitting the form"));
         }
-
         @Test
         @Order(12)
         void checkResult(){
@@ -124,6 +120,5 @@
         }
 
         @AfterAll
-
         static void afterAll(){closeWebDriver();}
     }
