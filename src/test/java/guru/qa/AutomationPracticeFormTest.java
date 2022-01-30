@@ -121,10 +121,6 @@
             $(byText("qa.png")).should(appear);
             $(byText("Current Address")).should(appear);
             $(byText("NCR Delhi")).should(appear);
-
-            // Альтернативные варианты проверок
-            // $(".table-responsive").shouldHave(text("qa-guru.txt"), text("Saint-Pee"), text("NCR Delhi"));
-            // $$("td").shouldHave(containExactTextsCaseSensitive("Mikhail Loginov", "random@mail.ru", "Female"));
         }
 
         @AfterAll
