@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.qa.AutomationPracticeFormTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-01-30T15:54:30" hostname="link" time="2.33">
+<testsuite name="guru.qa.AutomationPracticeFormTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-01-30T16:12:58" hostname="link" time="2.542">
   <properties/>
-  <testcase name="enterName()" classname="guru.qa.AutomationPracticeFormTest" time="0.332"/>
-  <testcase name="enterUserEmail()" classname="guru.qa.AutomationPracticeFormTest" time="0.125"/>
-  <testcase name="chooseGender()" classname="guru.qa.AutomationPracticeFormTest" time="0.084"/>
-  <testcase name="enterNumber()" classname="guru.qa.AutomationPracticeFormTest" time="0.121"/>
-  <testcase name="chooseDateOfBirth()" classname="guru.qa.AutomationPracticeFormTest" time="0.413"/>
-  <testcase name="enterSubject()" classname="guru.qa.AutomationPracticeFormTest" time="0.214"/>
-  <testcase name="markedHobbies()" classname="guru.qa.AutomationPracticeFormTest" time="0.046"/>
-  <testcase name="fileUpload()" classname="guru.qa.AutomationPracticeFormTest" time="0.048"/>
-  <testcase name="enterAddress()" classname="guru.qa.AutomationPracticeFormTest" time="0.111"/>
-  <testcase name="enterStateCity()" classname="guru.qa.AutomationPracticeFormTest" time="0.368"/>
-  <testcase name="clickSubmitButton()" classname="guru.qa.AutomationPracticeFormTest" time="0.197"/>
-  <testcase name="checkResult()" classname="guru.qa.AutomationPracticeFormTest" time="0.26"/>
+  <testcase name="enterName()" classname="guru.qa.AutomationPracticeFormTest" time="0.341"/>
+  <testcase name="enterUserEmail()" classname="guru.qa.AutomationPracticeFormTest" time="0.153"/>
+  <testcase name="chooseGender()" classname="guru.qa.AutomationPracticeFormTest" time="0.082"/>
+  <testcase name="enterNumber()" classname="guru.qa.AutomationPracticeFormTest" time="0.119"/>
+  <testcase name="chooseDateOfBirth()" classname="guru.qa.AutomationPracticeFormTest" time="0.46"/>
+  <testcase name="enterSubject()" classname="guru.qa.AutomationPracticeFormTest" time="0.202"/>
+  <testcase name="markedHobbies()" classname="guru.qa.AutomationPracticeFormTest" time="0.048"/>
+  <testcase name="fileUpload()" classname="guru.qa.AutomationPracticeFormTest" time="0.051"/>
+  <testcase name="enterAddress()" classname="guru.qa.AutomationPracticeFormTest" time="0.118"/>
+  <testcase name="enterStateCity()" classname="guru.qa.AutomationPracticeFormTest" time="0.397"/>
+  <testcase name="clickSubmitButton()" classname="guru.qa.AutomationPracticeFormTest" time="0.286"/>
+  <testcase name="checkResult()" classname="guru.qa.AutomationPracticeFormTest" time="0.272"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/belsv/repository/java/auto_tests_guru/qa_guru10_hw2/build/downloads/1643558065107_31067_13
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/belsv/repository/java/auto_tests_guru/qa_guru10_hw2/build/downloads/1643559174272_33109_13
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/belsv/.cache/selenium/chromedriver/linux64/97.0.4692.71/chromedriver
-Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 55947
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 46865
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 30, 2022 6:54:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 30, 2022 7:12:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 30, 2022 6:54:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 30, 2022 7:12:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 97, so returning the closest version found: 96
-Jan 30, 2022 6:54:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jan 30, 2022 7:12:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 97 of 96
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT3M to PT3M
@@ -34,8 +34,8 @@ INFO: Found CDP implementation for version 97 of 96
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=97.0.4692.99 Platform=LINUX
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.1.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.0 build revision: 87802e897b
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (f77b5579153a2e5b3f30bcf737038d3c)
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 13 -> ChromeDriver: chrome on LINUX (f77b5579153a2e5b3f30bcf737038d3c)...
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 13 in 74 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (0f204af348e94055b511153e930f1ce6)
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 13 -> ChromeDriver: chrome on LINUX (0f204af348e94055b511153e930f1ce6)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 13 in 72 ms
 ]]></system-err>
 </testsuite>
