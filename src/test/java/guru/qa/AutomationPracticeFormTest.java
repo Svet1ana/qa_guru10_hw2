@@ -1,7 +1,6 @@
     package guru.qa;
 
     import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
-    import org.junit.jupiter.api.Order;
     import org.junit.jupiter.api.Test;
     import org.junit.jupiter.api.TestMethodOrder;
     import com.codeborne.selenide.Condition;
@@ -27,6 +26,8 @@
 
         @Test
         void veryBigSuccessTest() {
+            open("https://demoqa.com/automation-practice-form");
+
             $("#firstName").setValue("FirstName");
             $("#lastName").setValue("LastName");
             $("#userEmail").setValue("test@test.com");
