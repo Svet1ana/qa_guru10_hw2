@@ -7,8 +7,8 @@
     import com.codeborne.selenide.Configuration;
     import org.junit.jupiter.api.*;
     import java.io.File;
-    import static com.codeborne.selenide.Condition.appear;
-    import static com.codeborne.selenide.Condition.visible;
+
+    import static com.codeborne.selenide.Condition.*;
     import static com.codeborne.selenide.Selectors.byText;
     import static com.codeborne.selenide.Selenide.*;
 
@@ -55,20 +55,19 @@
             $("#react-select-4-input").setValue("Delhi").pressEnter();
             $("#submit").scrollTo().click();
 
+            $("#example-modal-sizes-title-lg").shouldBe(Condition.visible);
             $("#example-modal-sizes-title-lg")
-                    .shouldBe(Condition.text(  "Thanks for submitting the form"));
-            $("#example-modal-sizes-title-lg")
-                    .shouldBe(Condition.text(  "Thanks for submitting the form"));
-            $(byText("FirstName LastName")).should(appear);
-            $(byText("test@test.com")).should(appear);
-            $(byText("Female")).should(visible);
-            $(byText("0123456789")).should(appear);
-            $(byText("28 February,1990")).should(appear);
-            $(byText("Maths")).should(appear);
-            $(byText("Sports")).should(appear);
-            $(byText("qa.png")).should(appear);
-            $(byText("Current Address")).should(appear);
-            $(byText("NCR Delhi")).should(appear);
+                    .shouldBe(text(  "Thanks for submitting the form"));
+            $(".table-responsive").shouldHave(text("FirstName"),
+                    (text("LastName")),
+                    (text("test@test.com")),
+                    (text("Male")),
+                    (text("0123456789")),
+                    (text("28 February,1990")),
+                    (text("Maths")),
+                    (text("Sports, Reading, Music")),
+                    (text("qa.png")),
+                    (text("NCR Delhi")));
 
         }
 

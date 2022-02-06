@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="guru.qa.AutomationPracticeFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-06T13:03:47" hostname="link" time="13.741">
+<testsuite name="guru.qa.AutomationPracticeFormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-06T13:18:03" hostname="link" time="10.191">
   <properties/>
-  <testcase name="veryBigSuccessTest()" classname="guru.qa.AutomationPracticeFormTest" time="13.741"/>
+  <testcase name="veryBigSuccessTest()" classname="guru.qa.AutomationPracticeFormTest" time="10.191"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/belsv/repository/java/auto_tests_guru/qa_guru10_hw2/build/downloads/1644152627341_17656_13
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/belsv/repository/java/auto_tests_guru/qa_guru10_hw2/build/downloads/1644153483202_19594_13
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.80 (resolved driver for Chrome 98)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
-[Test worker] INFO io.github.bonigarcia.wdm.online.Downloader - Downloading https://chromedriver.storage.googleapis.com/98.0.4758.80/chromedriver_linux64.zip
-[Test worker] INFO io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver_linux64.zip
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/belsv/.cache/selenium/chromedriver/linux64/98.0.4758.80/chromedriver
-Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 47684
+Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 55911
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 06, 2022 4:03:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 06, 2022 4:18:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Feb 06, 2022 4:03:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 06, 2022 4:18:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 96
-Feb 06, 2022 4:03:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 06, 2022 4:18:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 98 of 96
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT3M to PT3M
@@ -26,8 +23,8 @@ INFO: Found CDP implementation for version 98 of 96
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=98.0.4758.80 Platform=LINUX
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.1.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.0 build revision: 87802e897b
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (e497491d1ac6a7f5a7b4f4d136de49d2)
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 13 -> ChromeDriver: chrome on LINUX (e497491d1ac6a7f5a7b4f4d136de49d2)...
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 13 in 77 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: ChromeDriver -> ChromeDriver: chrome on LINUX (e30a2037d97338425c3c26d7f0fa0e36)
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 13 -> ChromeDriver: chrome on LINUX (e30a2037d97338425c3c26d7f0fa0e36)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 13 in 75 ms
 ]]></system-err>
 </testsuite>
